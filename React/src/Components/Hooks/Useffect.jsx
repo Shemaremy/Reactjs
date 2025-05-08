@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 
 // Syntax: useEffect(() => {}, []);
@@ -6,15 +6,16 @@ import React, { useEffect } from 'react';
 
 function UseEffectHook() {
 
-    const a = 5;
+    const [count, setCount] = useState(0);
+
 
   useEffect(() => {
-    console.log(a); 
-  }, []);
+    setCount(count + 1)
+  }, [count]);
 
   return (
     <div>
-      <h1>Hello from useEffect!</h1>
+        <h1>{count}</h1>
     </div>
   );
 }

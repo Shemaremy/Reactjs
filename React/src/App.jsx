@@ -36,8 +36,10 @@ function App() {
         <SubmitEvent /> 
       */}
 
-      {/* <UseStateHook /> */}
-      <UseEffectHook />
+      {/* -------- Hooks ------------------ 
+        <UseStateHook />
+        <UseEffectHook /> 
+      */}
     </>
   )
 }
