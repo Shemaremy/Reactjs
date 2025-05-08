@@ -11,6 +11,9 @@ import ClickEvent from './Components/Events/ClickEvent'
 import ChangeEvent from './Components/Events/ChangeEvent'
 import SubmitEvent from './Components/Events/SubmitEvent'
 
+import UseStateHook from './Components/Hooks/Usestate'
+import UseEffectHook from './Components/Hooks/Useffect'
+
 function App() {
 
   return (
@@ -32,6 +35,9 @@ function App() {
         <ChangeEvent />
         <SubmitEvent /> 
       */}
+
+      {/* <UseStateHook /> */}
+      <UseEffectHook />
     </>
   )
 }
